@@ -13,4 +13,5 @@
 
 ## main.py
 * model_propessing(The function that using the optimal KNN model to train Ecoli.csv, predict Ecoli_test.csv and show the f1 and acc for the train set)
+    * KNN setting: n_neighbors=5,weights='uniform',algorithm='auto',leaf_size=1
 * csv_output(output the prediction as the csv file and combine the f1 and acc of the train set in cv)
